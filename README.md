@@ -14,7 +14,7 @@ cd bin
 ./SVGDestroyer
 ```
 
-**Compiling the source**
+**Compiling the source**  
 There is a Makefile in the src directory.
 
 Here's an example:  
