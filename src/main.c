@@ -20,10 +20,11 @@ int main()
 	char replace;
 	char with;
 	
-	filename = malloc(1000);
+	filename = malloc(1024);
 	
 	printf("File to destroy: ");
-	scanf("%s", filename);
+	fgets(filename, 1024, stdin);
+	filename = strtok(filename, "\n");
 	
 	
 	fp = fopen(filename, "rb");
